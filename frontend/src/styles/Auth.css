@@ -1,0 +1,45 @@
+.register-container {
+    height: 97vh;
+    width: 100%;
+    background-image:url(../assets/blue-brush-stroke-frame.jpg) ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card{
+    background:  rgba(255, 255, 255, 0);
+    backdrop-filter: blur(15px);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    color: rgb(24, 2, 2);
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  input, select {
+    width: 80%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    border-color: black;
+  }
+  button {
+    width: 85%;
+    padding: 12px;
+    background: #136cbf;
+    color: rgb(245, 241, 241);
+    border: none;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background: #2035d7;
+  }
+  
